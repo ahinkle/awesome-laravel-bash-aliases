@@ -40,7 +40,7 @@ Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
 - [License](#license)
 
 <a id="how-to-use-aliases"></a>
-## How To Use Aliases
+### How To Use Aliases
 First, open up the `~/.bashrc` file in a text editor that is found in your home directory. Uncomment or add the following lines:
 
     if [ -f ~/.bash_aliases ]; then
