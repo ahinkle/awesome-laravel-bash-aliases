@@ -18,7 +18,7 @@
 Working with bash in daily life, it is very irritating writing the same command multiple times.
 To avoid that we write aliases/snippets for bashrc and make our life easier.
 
-.. and let's get real - Watching Taylor Otwell and Jeffrey Way run "`nah`" is magical.
+.. and let's get real - Watching Taylor Otwell and Jeffrey Way run "`nah`" is magical ✨.
 
 Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
 
@@ -44,7 +44,7 @@ Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
 First, open up the `~/.bashrc` file in a text editor that is found in your home directory. Uncomment or add the following lines:
 
     if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+        . ~/.bash_aliases
     fi
 
 This tells it to load a .bash_aliases file, if it exists, so you can put all your aliases in it and make them easier to share and keep up with. Finally, create the `~/.bash_aliases` file and add the following as your first alias:
