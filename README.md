@@ -99,7 +99,6 @@ From here on you should be able to type art and it’ll auto expand into php art
 
 ##### [php artisan serve](https://laravel.com/docs/5.8/installation)
     alias serve="php artisan serve"
-    alias pas="php artisan serve"
 
 <a id="logging"></a>
 #### Logging
