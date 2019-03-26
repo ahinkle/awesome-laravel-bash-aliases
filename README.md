@@ -45,41 +45,41 @@ Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
 
 <a id="artisan-console"></a>
 #### Artisan Console
-##### [`php artisan`](https://laravel.com/docs/artisan)
+##### [php artisan](https://laravel.com/docs/artisan)
     alias art="php artisan"
 
     # also commonly alased to `artisan`, `p`, `pa`, and others.
 
-##### [`php artisan tinker`](https://laravel.com/docs/artisan#tinker)
+##### [php artisan tinker](https://laravel.com/docs/artisan#tinker)
     alias t="php artisan tinker"
 
     # also commonly alased to `pat`, `tink`, `artt`, and others.
 
 <a id="controllers"></a>
 #### Controllers
-##### [`php artisan make:controller`](https://laravel.com/docs/controllers)
+##### [php artisan make:controller](https://laravel.com/docs/controllers)
     alias mc="php artisan make:controller"
     alias mrc="php artisan make:controller --resource "
 
 <a id="database"></a>
 #### Database
-##### [`php artisan make:migration`](https://laravel.com/docs/migrations#generating-migrations)
+##### [php artisan make:migration](https://laravel.com/docs/migrations#generating-migrations)
     alias mm="php artisan make:migration"
     alias mmm="php artisan make:migration -m "
 
-##### [`php artisan migrate`](https://laravel.com/docs/migrations#running-migrations)
+##### [php artisan migrate](https://laravel.com/docs/migrations#running-migrations)
     alias migrate="php artisan migrate"
     alias mfs="php artisan migrate:fresh --seed"
 
 <a id="installation"></a>
 #### Installation
-##### [`composer create-project --prefer-dist laravel/laravel`](https://laravel.com/docs/5.8/installation)
+##### [composer create-project --prefer-dist laravel/laravel](https://laravel.com/docs/5.8/installation)
     alias laravel-installer="composer create-project --prefer-dist laravel/laravel "
 
-##### [`php artisan key:generate`](https://laravel.com/docs/5.8/installation)
+##### [php artisan key:generate](https://laravel.com/docs/5.8/installation)
     alias key="php artisan key:generate"
 
-##### [`php artisan serve`](https://laravel.com/docs/5.8/installation)
+##### [php artisan serve](https://laravel.com/docs/5.8/installation)
     alias serve="php artisan serve"
     alias pas="php artisan serve"
 
@@ -97,15 +97,15 @@ Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
 
 <a id="testing"></a>
 #### Testing
-##### [`phpunit`](https://laravel.com/docs/testing#creating-and-running-tests)
+##### [phpunit](https://laravel.com/docs/testing#creating-and-running-tests)
     alias t="phpunit"
     alias pf="phpunit --filter "
     alias pg="phpunit --group "
 
-##### [`php artisan dusk`](https://laravel.com/docs/testing#creating-and-running-tests)
+##### [php artisan dusk](https://laravel.com/docs/testing#creating-and-running-tests)
     alias du="php artisan dusk"
 
-##### [`php artisan make:test`](https://laravel.com/docs/testing#creating-and-running-tests)
+##### [php artisan make:test](https://laravel.com/docs/testing#creating-and-running-tests)
     alias mt="php artisan make:test"
     alias mtu="php artisan make:test --unit "
 
