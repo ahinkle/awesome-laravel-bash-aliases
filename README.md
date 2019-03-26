@@ -13,7 +13,6 @@
 
 🚀 Curated list of useful Laravel Bash Alises that will make your work easier.
 
-
 ## Inspiration
 
 Working with bash in daily life, it is very irritating writing the same command multiple times.
@@ -26,6 +25,7 @@ Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
 ## Contents
 
 - [Contents](#contents)
+    - [How To Use Aliases](#how-to-use-aliases)
     - [Laravel Framework](#laravel-framework)
         - [Artisan Console](#artisan-console)
         - [Controllers](#controllers)
@@ -37,8 +37,26 @@ Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
     - [Docker](#docker)
     - [Git](#git)
     - [Other](#other)
-- [How To Use Aliases](#how-to-use-aliases)
 - [License](#license)
+
+<a id="how-to-use-aliases"></a>
+## How To Use Aliases
+First, open up the `~/.bashrc` file in a text editor that is found in your home directory. Uncomment or add the following lines:
+
+    if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+    fi
+
+This tells it to load a .bash_aliases file, if it exists, so you can put all your aliases in it and make them easier to share and keep up with. Finally, create the `~/.bash_aliases` file and add the following as your first alias:
+
+    alias art="php artisan"
+
+Save the file and type the following in the terminal:
+
+    source ~/.bashrc
+
+From here on you should be able to type art and it’ll auto expand into php artisan. Just remember that every time you modify the `bash_aliases` file you’ll need to either run that source command or restart Terminal so the changes are picked up.
+
 
 <a id="laravel-framework"></a>
 ### Laravel Framework
@@ -114,7 +132,7 @@ Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
     alias cdo="composer dump-autoload -o"
     alias ci="composer install"
     alias co="composer outdated"
-    alias cu="composer updat"
+    alias cu="composer update"
 
 <a id="docker"></a>
 ### Docker
@@ -130,31 +148,13 @@ Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
     alias nah="git reset --hard;git clean -df"
     alias wip="git add . && git commit -m 'wip'"
 
-<a id="Other"></a>
+<a id="other"></a>
 ### Other
     alias _='sudo'
     alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 
-<a id="how-to-use-aliases"></a>
-## How To Use Aliases
-First, open up the `~/.bashrc` file in a text editor that is found in your home directory. Uncomment or add the following lines:
-
-    if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-    fi
-
-This tells it to load a .bash_aliases file, if it exists, so you can put all your aliases in it and make them easier to share and keep up with. Finally, create the `~/.bash_aliases` file and add the following as your first alias:
-
-    alias pa="php artisan"
-
-Save the file and type the following in the terminal:
-
-    source ~/.bashrc
-
-From here on you should be able to type art and it’ll auto expand into php artisan. Just remember that every time you modify the `bash_aliases` file you’ll need to either run that source command or restart Terminal so the changes are picked up.
-
 ---
-
+<a id="license"></a>
 ## License
 
-[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
