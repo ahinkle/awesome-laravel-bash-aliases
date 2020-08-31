@@ -11,7 +11,7 @@
     <img align="center" src="https://img.shields.io/travis/ahinkle/awesome-laravel-bash-aliases/master.svg?style=flat">
 </a>
 
-🚀 Curated list of useful Laravel bash aliases that will make your work easier.
+🚀 Curated list of useful Laravel bash aliases that will make your work easier. This list is not recommending that you use all aliases below, only those you may find useful in your Laravel Development lifecycle.
 
 ## Inspiration
 
