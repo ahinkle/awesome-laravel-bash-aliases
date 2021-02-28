@@ -16,9 +16,9 @@
 ## Inspiration
 
 Working with bash in daily life, it is very irritating writing the same command multiple times.
-To avoid that we write aliases/snippets for bashrc and make our life easier.
+To avoid that we write aliases/snippets for bashrc and make our life easier. 
 
-.. and let's get real - Watching Taylor Otwell and Jeffrey Way run "`nah`" is magical ✨.
+This is a list of useful bash aliases that I've seen in use at Laravel conferences or organized events over the years.
 
 Read [Contribution Guidelines](CONTRIBUTING.md) before contributing.
 
