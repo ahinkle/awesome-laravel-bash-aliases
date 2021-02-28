@@ -6,11 +6,7 @@
 <a href="https://github.com/sindresorhus/awesome">
     <img align="center" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
 </a>
-
-<a href="https://travis-ci.org/ahinkle/awesome-laravel-bash-aliases">
-    <img align="center" src="https://img.shields.io/travis/ahinkle/awesome-laravel-bash-aliases/master.svg?style=flat">
-</a>
-
+    
 🚀 Curated list of useful Laravel bash aliases that will make your work easier. This list is not recommending that you use all aliases below, only those you may find useful in your Laravel Development lifecycle.
 
 ## Inspiration
