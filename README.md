@@ -65,14 +65,15 @@ From here on you should be able to type art and it’ll auto expand into php art
 #### Artisan Console
 ##### [php artisan](https://laravel.com/docs/artisan)
     alias art="php artisan"
-
-    # also commonly alased to `artisan`, `p`, `pa`, and others.
+    alias p="php artisan"
+    alias pa"php artisan"
+    alias artisan="php artisan"
 
 ##### [php artisan tinker](https://laravel.com/docs/artisan#tinker)
     alias t="php artisan tinker"
-
-    # also commonly alased to `pat`, `tink`, `artt`, and others.
-
+    alias pat="php artisan tinker"
+    alias artt="php artisan tinker"
+    
 <a id="controllers"></a>
 #### Controllers
 ##### [php artisan make:controller](https://laravel.com/docs/controllers)
